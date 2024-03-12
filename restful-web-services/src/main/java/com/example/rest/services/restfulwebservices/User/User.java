@@ -1,10 +1,10 @@
 package com.example.rest.services.restfulwebservices.User;
 
 import java.time.LocalDate;
-
 public class User {
 
     private Integer id;
+
     private String name;
     private LocalDate birthDate;
 
