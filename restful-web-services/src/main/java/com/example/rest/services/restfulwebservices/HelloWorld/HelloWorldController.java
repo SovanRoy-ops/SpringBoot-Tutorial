@@ -28,7 +28,6 @@ public class HelloWorldController {
         return messageSource.getMessage("good.morning.message", null, "Default Message", locale);
     }
 
-
     @GetMapping(path = "/hello-world-bean")
     public HelloWorldBean HelloWorldBean() {
         return new HelloWorldBean("Hello World from bean");
